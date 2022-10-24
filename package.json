@@ -1,6 +1,6 @@
 {
-  "name": "react-validation",
-  "version": "2.10.9",
+  "name": "@Josh_Addington/react-validation",
+  "version": "2.10.10",
   "description": "validation components",
   "keywords": [
     "react",
@@ -9,7 +9,7 @@
     "react validation"
   ],
   "scripts": {
-    "test": "node --harmony_proxies node_modules/.bin/jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "test": "node node_modules/.bin/jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "test:dev": "jest",
     "dev": "node dev-server",
     "build": "webpack --config ./webpack/webpack.config.build && webpack --config ./webpack/webpack.config.minify",
